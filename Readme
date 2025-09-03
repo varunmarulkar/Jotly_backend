@@ -1,0 +1,50 @@
+Jotly - Notes Application
+
+Jotly is a simple note-taking app built with React (Frontend) and Node.js/Express + MongoDB (Backend). It allows users to register, login via OTP, create, view, and delete notes.
+
+Features
+
+1) User registration with OTP verification
+
+2) Login using OTP
+
+3) Create, read, and delete notes
+
+4) Responsive design for mobile and desktop
+
+
+Prerequisites
+
+1) Before you start, make sure you have installed:
+
+2) Node.js (v18 or above recommended)
+
+3) npm (comes with Node.js)
+
+4) MongoDB (Atlas or local instance)
+
+
+Backend Setup:
+** Clone the repository
+** Backend Setup
+  -cd backend   
+  -npm install
+
+** Create a .env file in the backend root:
+PORT=5000
+MONGO_URI=<your-mongodb-uri>
+
+
+** Create a gmailCOnfig.js file in the backend root:
+JWT_SECRET=<your-secret-key>
+EMAIL_USER=<your-email>
+EMAIL_PASS=<your-email-password-or-app-password>
+
+Start backend locally:npm start
+
+
+
+Frontend Setup:
+ -cd frontend  
+ -npm install
+ -npm run dev
